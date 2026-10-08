@@ -32,7 +32,9 @@ a {
 .bg-dark-gray {
     background-color: #0b0e13;
 }
-
+.navbar{
+    border:none;
+}
 .nav-header-logo {
     color: var(--main-color);
 }
@@ -50,13 +52,7 @@ a {
 .navbar-nav .nav-link:hover {
     color: var(--main-color);
 }
-#navbarText ul{
-        border-top: 1px solid #1e2939;
-}
 
-.navbar-text {
-    border-top: 1px solid #1e2939;
-}
 
 .navbar-text button:nth-of-type(1):hover,
 .navbar-text button:nth-of-type(2):hover {
